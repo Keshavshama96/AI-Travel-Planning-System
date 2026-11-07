@@ -1,0 +1,23 @@
+
+# Virtual Environment
+langgraph_env3/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated travel plans
+travel_plans/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE files
+.vscode/
+
+# Streamlit secrets
+.streamlit/secrets.toml
